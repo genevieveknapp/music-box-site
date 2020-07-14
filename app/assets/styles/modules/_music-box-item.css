@@ -1,0 +1,24 @@
+.music-box-item {
+    padding: 10px;
+    border: 5px solid $mainPink;
+    border-radius: 5px;
+    background-color: $mainOrange;
+    min-height: 20rem;
+    text-align: center;
+
+    > ul {
+    list-style-type: none;
+    }
+
+    &__photo {
+        border-radius: 180px;
+        overflow: hidden;
+        width: 360px;
+        height: 360px;
+        margin: 0 auto -180px auto;
+        position: relative;
+        top: -180px;
+        border: 6px solid $mainPink;
+    }
+
+}
