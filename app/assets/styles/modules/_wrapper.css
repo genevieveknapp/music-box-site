@@ -1,4 +1,9 @@
 .wrapper {
     padding-left: 18px;
     padding-right: 18px;
+
+    &__header {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
