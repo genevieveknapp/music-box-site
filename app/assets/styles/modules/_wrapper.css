@@ -3,7 +3,9 @@
     padding-right: 18px;
 
     &__header {
-        padding-left: 250px;
-        padding-right: 250px;
+        @mixin atMedium {
+            padding-left: 250px;
+            padding-right: 250px;
+        }
     }
 }
