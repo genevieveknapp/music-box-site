@@ -32,4 +32,18 @@
         }
     }
 
+    &__animation-is-running {
+        border: 5px $mainPink;
+        animation-name: snake;
+        animation-duration: 1s;
+        animation-direction: alternate;
+        animation-fill-mode: backwards;
+        animation-iteration-count: infinite;
+
+        @keyframes snake {
+            0% {border: 5px solid $mainPink}
+            100% {border: 5px solid #eb348c}
+        }
+    }
+
 }
