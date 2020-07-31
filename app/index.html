@@ -42,16 +42,21 @@
         <h1 class="large-hero__title">Hear each music box in my collection.</h1>
         <h2 class="large-hero__subtitle">Then listen to them all at once.</h2>
         <p class="large-hero__description">Music Box Arcade lets you play 20 music boxes simultaneously. Mix and match your melody.</p>
-        <p><a href="#" class="btn btn--orange btn--large open-modal">Start Listening</a></p>
+        <div class="large-hero__play-btn-container">
+        <p id="play-all-btn" class="btn btn--orange btn--large btn--flex">Play All 20</p>
+        <p id="play-five-btn" class="btn btn--orange btn--large">Play Five Random</p>
+        </div>
+        <p><a href="#music-boxes" id="music-boxes-link" class="btn">Jump to Music Box Selection</a></p>
       </div>
     </div>
   </div>
 
-  <div class="page-section music-boxes" data-matching-link="#music-boxes-link">
+  <div id= "music-boxes" class="page-section music-boxes" data-matching-link="#music-boxes-link">
           <div class="music-box-item">
             <div class="music-box-item__photo">
               <img srcset="assets/images/musicbox-clock.jpg 160w" sizes="360px" alt="Music box with bluebirds in snowglobe.">
             </div>
+            <audio src="assets/audio/clock.mp3"></audio>
             <h3 class="music-box-item__title">Bluebirds in Snowglobe With Clock</h3>
             <ul class="music-box-item_attributes">
               <li><strong>Year</strong>: Unknown</li>
@@ -63,6 +68,7 @@
           <div class="music-box-item__photo">
             <img srcset="assets/images/musicbox-fish.jpg 160w" sizes="360px" alt="Music box with angelfish in snowglobe.">
           </div>
+          <audio src="assets/audio/fish.mp3"></audio>
           <h3 class="music-box-item__title">Angelfish in Snowglobe</h3>
           <ul class="music-box-item_attributes">
             <li><strong>Year</strong>: Unknown</li>
