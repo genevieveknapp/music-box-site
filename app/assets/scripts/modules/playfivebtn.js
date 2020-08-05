@@ -18,11 +18,9 @@ class PlayFive {
             array[i] = array[j]
             array[j] = temp
           }
-          console.log(array)
           this.arrayFive = [];
           for (let k = 0; k < 5; k+=1) {
               this.arrayFive.push(array[k]);
-              console.log(this.arrayFive);
           }
           return this.arrayFive;
     }

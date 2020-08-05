@@ -2,7 +2,6 @@ class PlayAll {
     constructor() {
         this.audioFiles = document.getElementsByTagName("AUDIO")
         this.playAllBtn = document.getElementById('play-all-btn')
-        this.playPause2
         this.events()
     }
 
