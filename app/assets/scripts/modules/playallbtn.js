@@ -14,7 +14,7 @@ class PlayAll {
         this.playAllBtn.classList.toggle("btn__animation-is-running");
         if (this.playPause2 == 1) {
                 for (let i = 0; i < this.audioFiles.length; i+=1) {
-                    this.audioFiles[i].pause()
+                    this.audioFiles[i].load()
                  }
                  this.playPause2 = 0;
                  this.playAllBtn.innerHTML = "Play All 20";
@@ -23,7 +23,7 @@ class PlayAll {
                         this.audioFiles[x].play()
                     }
                     this.playPause2 = 1;
-                    this.playAllBtn.innerHTML = "Stop Playing";
+                    this.playAllBtn.innerHTML = "Stop All";
                 }
             }
 }

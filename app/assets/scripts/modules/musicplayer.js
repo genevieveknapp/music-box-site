@@ -13,7 +13,7 @@ class MusicBoxes {
                 this.classList.toggle("music-box-item__animation-is-running")
                 this.childNodes[1].classList.toggle("music-box-item__animation-is-running")
                 if (this.playPause == 1) {
-                    this.childNodes[3].pause()
+                    this.childNodes[3].load()
                     this.playPause = 0;
                 } else {
                     this.childNodes[3].play()
