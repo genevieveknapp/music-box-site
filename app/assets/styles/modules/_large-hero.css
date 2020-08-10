@@ -77,6 +77,11 @@
             margin-top: 1.1rem;
             font-size: 1.875rem;
         }
+
+        &__long {
+            max-width: 90rem;
+            color: $mainOrange;
+        }
     }
 
 }
