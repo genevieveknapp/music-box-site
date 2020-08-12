@@ -10,7 +10,6 @@ let playAll = new PlayAll();
 let playFive = new PlayFive();
 
 
-
 if (module.hot) {
     module.hot.accept()
 }
