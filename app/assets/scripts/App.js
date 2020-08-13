@@ -1,4 +1,5 @@
 import '../styles/styles.css'
+import 'lazysizes'
 import MobileMenu from './modules/mobilemenu'
 import MusicBoxes from './modules/musicplayer'
 import PlayAll from './modules/playallbtn'
