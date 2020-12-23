@@ -1,14 +1,13 @@
-class MobileMenu {
-    constructor() {
-        this.menuIcon = document.querySelector(".site-header__menu-icon")
-        this.menuContent = document.querySelector(".site-header__menu-content")
-        this.siteHeader = document.querySelector(".site-header")
+export default class MobileMenu {
+    constructor(menuIcon, menuContent, siteHeader) {
+        this.menuIcon = menuIcon
+        this.menuContent = menuContent
+        this.siteHeader = siteHeader
         this.events()
     }
 
     events() {
         this.menuIcon.addEventListener("click", () => this.toggleTheMenu())
-        
     }
 
     toggleTheMenu() {
@@ -17,5 +16,3 @@ class MobileMenu {
         this.menuIcon.classList.toggle("site-header__menu-icon--close-x")
     }
 }
-
-export default MobileMenu;

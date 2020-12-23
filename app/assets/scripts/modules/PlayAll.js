@@ -1,7 +1,7 @@
-class PlayAll {
-    constructor() {
-        this.audioFiles = document.getElementsByTagName("AUDIO")
-        this.playAllBtn = document.getElementById('play-all-btn')
+export default class PlayAll {
+    constructor(audioFiles, playAllBtn) {
+        this.audioFiles = audioFiles
+        this.playAllBtn = playAllBtn
         this.events()
     }
 
@@ -26,5 +26,3 @@ class PlayAll {
                 }
             }
 }
-
-export default PlayAll
