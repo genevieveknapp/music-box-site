@@ -25,6 +25,7 @@
     }
     
     &__title {
+        font-family: 'Luckiest Guy', normal;
         font-weight: 500;
         color: $mainOrange;
         margin: 0;
