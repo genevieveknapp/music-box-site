@@ -3,14 +3,22 @@
     border: 5px solid $mainPink;
     border-radius: 5px;
     background-color: $mainOrange;
-    min-height: 20rem;
     text-align: center;
-
-    font-family: 'Luckiest Guy', cursive;
     font-size: 2rem;
+    width: 88%;
+    margin: auto;
+
+    @mixin atSmall {
+        min-height: 20rem;
+    }
 
     h3 {
         margin-bottom: 8px;
+        text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+        color: rgb(65, 65, 65);
+        font-weight: 600;
+        font-size: 2rem;
+        font-style: italic;
     }
 
     &__photo {
@@ -30,7 +38,9 @@
     }
 
     &__animation-is-running {
-        border: 5px $mainPink;
+        border-width: 5px;
+        border-color: $mainPink;
+        border-style: solid;
         animation-name: flash;
         animation-duration: 1s;
         animation-direction: alternate;
@@ -38,12 +48,21 @@
         animation-iteration-count: infinite;
 
         @keyframes flash {
-            0% {border: 5px solid $mainPink}
-            25% {border: 5px solid #f6ff78}
-            50% {border: 5px solid #b3ff78}
-            50% {border: 5px solid #ff7d78}
-            100% {border: 5px solid #ffc078}
+            0% {border-width: 5px;
+                border-style: solid;
+                border-color: $mainPink;}
+            25% {border-width: 5px;
+                border-style: solid;
+                border-color: #f6ff78}
+            50% {border-width: 5px;
+                border-style: solid;
+                border-color: #b3ff78}
+            50% {border-width: 5px;
+                border-style: solid;
+                border-color: #ff7d78}
+            100% {border-width: 5px;
+                border-style: solid;
+                border-color: #ffc078}
         }
     }
-
 }

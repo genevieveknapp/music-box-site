@@ -1,1 +1,13 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="48" viewBox="0 0 64 48"><defs><style>.cls-1{fill:#2f5572;}</style></defs><title>mail</title><path class="cls-1" d="M0,0V8L32,24,64,8V0H0ZM0,16V48H64V16L32,32Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 128" width="176" height="128">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="layer1">
+		<g id="layer1-7">
+			<g id="g6564">
+				<path id="path4323" fill-rule="evenodd" class="shp0" d="M7.48 0.48L168.53 0.48C172.46 0.48 175.68 3.7 175.68 7.63L175.68 120.36C175.68 124.3 172.46 127.52 168.53 127.52L7.48 127.52C3.54 127.52 0.32 124.3 0.32 120.36L0.32 7.63C0.32 3.7 3.54 0.48 7.48 0.48ZM87.99 71.28L149.42 17.61L26.54 17.61L87.99 71.28ZM116.45 65.41L161.37 105.45L161.37 26.16L116.45 65.41ZM14.63 26.2L14.63 105.84L59.74 65.62L14.63 26.2ZM105.6 74.89L92.68 86.18C89.99 88.52 85.95 88.52 83.26 86.18L70.6 75.11L28.11 112.99L148.34 112.99L105.6 74.89Z" />
+			</g>
+		</g>
+	</g>
+</svg>

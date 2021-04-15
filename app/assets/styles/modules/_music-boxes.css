@@ -2,7 +2,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-    grid-gap: 14em 2em;
+    grid-gap: 14em;
 
     @mixin atSmall {
         grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
