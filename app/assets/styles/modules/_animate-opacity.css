@@ -1,0 +1,14 @@
+.animate-opacity {
+    animation-name: opac;
+    animation-duration: .5s;
+    opacity:1 !important;
+
+    @keyframes opac {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+}

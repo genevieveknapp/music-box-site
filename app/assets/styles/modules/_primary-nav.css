@@ -18,7 +18,8 @@
     li {
         list-style: none;
         display: inline-block;
-        padding-right: 20px;
+        padding-right: 10px;
+        margin-left: -30px;
 
         @mixin atMedium {
             float: left;
@@ -28,6 +29,8 @@
 
     li:last-child {
         padding-right: 0;
+        padding-left: 10px;
+        margin-left: auto;
         @mixin atMedium {
             padding-right: 20px;
         }
