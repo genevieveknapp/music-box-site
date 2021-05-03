@@ -1,6 +1,6 @@
 .animate-opacity {
     animation-name: opac;
-    animation-duration: .5s;
+    animation-duration: 1.5s;
     opacity:1 !important;
 
     @keyframes opac {
