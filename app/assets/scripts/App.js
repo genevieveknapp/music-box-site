@@ -1,6 +1,6 @@
 import '../styles/styles.css'
 import 'lazysizes'
-import MobileMenu from './modules/MobileMenu'
+import MobileMenu from './modules/mobilemenu'
 import MusicBoxes from './modules/MusicBoxes'
 import PlayAll from './modules/PlayAll'
 import PlayFive from './modules/PlayFive'
