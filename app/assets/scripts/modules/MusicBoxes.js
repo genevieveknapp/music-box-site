@@ -11,7 +11,7 @@ export default class MusicBoxes {
         for (let i = 0; i < this.boxes.length; i+=1) {
             this.boxes[i].addEventListener("click", function() {
                 this.classList.toggle("music-box-item__animation-is-running")
-                this.childNodes[1].classList.toggle("music-box-item__animation-is-running")
+                this.childNodes[0].classList.toggle("music-box-item__animation-is-running")
                 if (this.playPause == 1) {
                     this.childNodes[1].load()
                     this.playPause = 0;
